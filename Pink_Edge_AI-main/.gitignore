@@ -1,0 +1,26 @@
+﻿.venv/
+.venv-1/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.key
+roboflow_key.txt
+*.db
+*.sqlite
+*.sqlite3
+received_scans/
+dataset/
+datasets/
+"App/Test Data"/
+runs/
+*.zip
+*.bak
+*.old
+
+# Large or local-only model artifacts
+App/Models/TB/model.pt
+App/Models/TB/local_model.pt
+App/Models/Mammography/local_model.pt
+App/Models/Maternal/local_model.pt
+App/Models/Maternal/FINAL-test-evaluation.pt
